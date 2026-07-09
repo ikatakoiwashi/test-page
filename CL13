@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<title>花畑の朝</title>
+
+<style>
+body{
+    margin:0;
+    background:#eee;
+}
+
+.main{
+    position:relative;
+    width:1000px;
+    height:600px;
+    margin:auto;
+}
+
+.bg{
+    position:absolute;
+    top:0;
+    left:0;
+}
+
+.text{
+    position:absolute;
+    top:50px;
+    left:30px;
+    padding:15px;
+    background:rgba(255,255,255,0.5);
+    color:#cc3366;
+    font-size:28px;
+    font-weight:bold;
+    line-height:1.5;
+}
+
+.b1{
+    position:absolute;
+    left:180px;
+    top:400px;
+}
+
+.b2{
+    position:absolute;
+    left:450px;
+    top:330px;
+}
+
+.b3{
+    position:absolute;
+    left:700px;
+    top:420px;
+}
+
+.credit{
+    position:absolute;
+    right:20px;
+    bottom:10px;
+    color:white;
+    font-size:18px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <img src="bg0.png" class="bg">
+
+    <div class="text">
+        ぽかぽか陽気の穏やかな朝<br>
+        花畑では、蝶々がのんびり飛んでいます
+    </div>
+
+    <img src="butterfly.gif" class="b1">
+    <img src="butterfly.gif" class="b2">
+    <img src="butterfly.gif" class="b3">
+
+    <div class="credit">
+        このイラストは、Adobe Firefly Image 5で生成しました
+    </div>
+
+</div>
+
+</body>
+</html>
