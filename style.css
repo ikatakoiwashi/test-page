@@ -1,0 +1,92 @@
+body{
+    margin:0;
+    width:960px;
+    height:534px;
+    position:relative;
+    overflow:hidden;
+}
+
+img{
+    position:absolute;
+}
+
+/* 背景 */
+#bg0{
+    left:0;
+    top:0;
+    z-index:1;
+}
+
+#bg1{
+    left:0;
+    top:0;
+    z-index:4;
+}
+
+/* タイトル */
+#title{
+    position:absolute;
+    left:30px;
+    top:30px;
+    background:rgba(255,255,255,0.7);
+    padding:15px;
+    color:#cc3366;
+    font-size:28px;
+    font-weight:bold;
+    z-index:5;
+}
+
+#title p{
+    margin:5px;
+}
+
+/* 青い生きもの */
+.foo{
+    position:absolute;
+    width:35px;
+    transition:0.4s;
+    z-index:3;
+}
+
+.foo:nth-of-type(2){
+    left:610px;
+    top:140px;
+}
+
+.foo:nth-of-type(3){
+    left:440px;
+    top:240px;
+}
+
+.foo:nth-of-type(4){
+    left:540px;
+    top:300px;
+}
+
+.foo:nth-of-type(5){
+    left:780px;
+    top:240px;
+}
+
+/* 蝶 */
+.butterfly{
+    position:absolute;
+    width:80px;
+    transition:0.4s;
+    z-index:10;
+}
+
+.butterfly:nth-of-type(6){
+    left:60px;
+    top:430px;
+}
+
+.butterfly:nth-of-type(7){
+    left:520px;
+    top:390px;
+}
+
+.butterfly:nth-of-type(8){
+    left:760px;
+    top:440px;
+}
